@@ -1,0 +1,23 @@
+2018-03-21T21:28:22+00:00 CRITICAL Maximum execution time of 300 seconds exceeded
+
+2018-03-21T22:02:34+00:00 CRITICAL Uncaught exception 'Exception' with message 'Element must be mapped in system' in C:\wamp64\www\rwandahair\wp-content\plugins\js_composer\include\classes\shortcodes\shortcodes.php:1426
+Stack trace:
+#0 C:\wamp64\www\rwandahair\wp-content\plugins\js_composer\include\helpers\helpers.php(1419): Vc_Shortcodes_Manager->getElementClass('vc_widget_sideb...')
+#1 [internal function]: vc_do_shortcode(Array, '', 'vc_widget_sideb...')
+#2 C:\wamp64\www\rwandahair\wp-includes\shortcodes.php(319): call_user_func('vc_do_shortcode', Array, '', 'vc_widget_sideb...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\wamp64\www\rwandahair\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(vc_sin...', 'do_shortcode_ta...', '[vc_single_imag...')
+#5 C:\wamp64\www\rwandahair\wp-content\plugins\js_composer\include\helpers\helpers.php(275): do_shortcode('[vc_single_imag...')
+#6 C:\wamp64\www\rwandahair\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(51): wpb_js_remove_wpautop('[vc_single_im
+
+2018-03-23T19:25:17+00:00 CRITICAL Uncaught exception 'Exception' with message 'Element must be mapped in system' in C:\wamp64\www\rwandahair\wp-content\plugins\js_composer\include\classes\shortcodes\shortcodes.php:1426
+Stack trace:
+#0 C:\wamp64\www\rwandahair\wp-content\plugins\js_composer\include\helpers\helpers.php(1419): Vc_Shortcodes_Manager->getElementClass('vc_video')
+#1 [internal function]: vc_do_shortcode(Array, '', 'vc_video')
+#2 C:\wamp64\www\rwandahair\wp-includes\shortcodes.php(319): call_user_func('vc_do_shortcode', Array, '', 'vc_video')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\wamp64\www\rwandahair\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(vc_col...', 'do_shortcode_ta...', '[vc_video link=...')
+#5 C:\wamp64\www\rwandahair\wp-content\plugins\js_composer\include\helpers\helpers.php(275): do_shortcode('[vc_video link=...')
+#6 C:\wamp64\www\rwandahair\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(51): wpb_js_remove_wpautop('[vc_video link=...')
+#7 C:\wamp64\www\rwand
+
